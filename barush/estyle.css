@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #5b0c0c; /* Café oscuro */
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+/* Estilos para la sección de la tienda */
+.tienda {
+    padding: 20px;
+    text-align: center;
+}
+
+.tienda h2 {
+    color: #5D4037;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: rgb(72, 20, 20);
+    border: 1px solid #240000;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    color: #5D4037;
+}
+
+.producto p {
+    font-size: 18px;
+    color: #666;
+}
+
+.producto button {
+    background-color: #8D6E63; /* Café claro */
+    color: rgb(46, 8, 8);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #5D4037; /* Café oscuro */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #5D4037;
+    color: rgb(108, 23, 23);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
